@@ -17,7 +17,81 @@
  跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上: 组织。开放容器。图像。来源=https。开放容器。图像。来源=https://github。com/$ 缓存来自
 Ubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntu:
  内容: 阅读
- 包: 写
+ 包: 写Skip to content
+zzzhu0222
+node-ws
+Repository navigation
+Code
+Pull requests
+Agents
+Actions
+Projects
+Wiki
+Security and quality
+Insights
+Settings
+Build huggingface Image
+.github/workflows/build-hug-image.yml #1
+All jobs
+Run details
+Workflow file for this run
+.github/workflows/build-hug-image.yml at b7dc90f
+name: Build huggingface Image
+
+on:
+  push:
+    branches: [ hug ]
+    paths:
+      - 'Dockerfile'
+      - 'index.js'
+      - 'package.json'
+      - 'index.html'
+  pull_request:
+    branches: [ hug ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          ref: hug 
+
+      - name: Convert to lowercase
+        id: vars
+        run: |
+          echo "owner_lower=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+          echo "repo_lower=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v4
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ghcr.io/${{ steps.vars.outputs.owner_lower }}/zzaixx:latest
+          labels: |
+            org.opencontainers.image.source=https://github.com/${{ steps.vars.outputs.repo_lower }}
+            org.opencontainers.image.description=http server
+            org.opencontainers.image.licenses=MIT
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
 
  步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤:
       - 名: 结帐存储库
