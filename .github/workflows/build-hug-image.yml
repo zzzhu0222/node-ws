@@ -1,56 +1,56 @@
-name: Build huggingface Image
+ 权木Ubuntu
 
-on:
-  push:
-    branches: [ hug ]
-    paths:
-      - 'Dockerfile'
-      - 'index.js'
-      - 'package.json'
-      - 'index.html'
-  pull_request:
-    branches: [ hug ]
-  workflow_dispatch:
+在:
+ 推:
+ 分支: [ 拥抱 ]
+ 路径:
+      - “Dockerfile”
+      - “索引。js”
+石型=gha
+ -“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”石型=gha索引。html”“-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”石型=gha索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”-“索引。html”“索引。html” 构建拥抱脸图像权限Ubuntu构建拥抱脸图像 -“索引。html”“索引。html”
+ 拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉求拉_拉求拉拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉拉_拉_拉_拉_拉_拉拉_拉求拉_拉求拉_拉求拉_拉求拉_拉_拉_拉_拉_拉pull_拉求pull_拉求pull_拉求pull_拉求:
+ 分支: [ 拥抱 ]
+ 工作流程_调度作流程_调度流程_调度作流程_调度_调度作流程_调度流程_调度作流程_调度流程_调度作流程_调度_调度作流程_调度流程_调度作流程_调度流程_调度作流程_调度_调度作流程_调度流程_调度作流程_调度_调度流程_调度作流程_调度流程_调度流程_调度作流程_调度_调度作流程_调度调度作流程_调度_调度作流程_调度流程_调度作流程_调度流程_调度流程_��作流程_调度_调度作流程_调度流程_调度作流程_调度_调度作流程_调度流程_调度作流程_调度_调度作流程_调度流程_调度作流程_调度流程_调度流程_调度作流程_调度_调度作流程_调度流程_调度作流程_调度_调度流程_调度作流程_调度流程_调度流程_调度作流程_调度_调度作流程_调度流程_调度作流程_调度调度作流程_调度_调度作流程_调度流程_调度作流程_调度流程_调度流程_调度作流程_调度_调度作流程_调度流程_调度作流程_调度:
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
+工作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作作:
+ 建造:
+ 跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上跑上: 组织。开放容器。图像。来源=https。开放容器。图像。来源=https://github。com/$ 缓存来自
+Ubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntubuntu:
+ 内容: 阅读
+ 包: 写
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
-        with:
-          ref: hug 
+ 步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤步骤:
+      - 名: 结帐存储库
+ 用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途用途: 行动/checkout@v5/checkout@v5
+ 与:
+ 参考 参考拥抱 
 
-      - name: Convert to lowercase
-        id: vars
-        run: |
-          echo "owner_lower=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
-          echo "repo_lower=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')" >> $GITHUB_OUTPUT
+拥抱 名id 我换我小写id 我换我小写
+ idiididididididididididiidididididididididiididididididididiididididididididiididididididididididiidididididididididiididididididididiididididididid:  跑步瓦尔
+ 跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步跑步: |
+ 一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板”$老板 “owner_lower=$（老板”$一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板 ” owner_lower=$“老板”$一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板”$老板 “owner_lower=$（老板”$一业一 “owner_lower=$（一主”$一业一 “owner_lower=$（一主”$老板 “owner_lower=$（一主”$老板 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（今生”$今生 “owner_lower=$（今生”$今生 ow一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板”$老板 “owner_lower=$（老板”$一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板 ” owner_lower=$“老板”$一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板”$老板 “owner_lower=$（老板”$一业一 “owner_lower=$（一主”$一业一 “owner_lower=$（一主”$老板 “owner_lower=$（一主”$老板 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等 “owner_lower=$（上等”$上等  owner_lower=$一䭉一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板”$老板 “owner_lower=$（老板”$一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（一亿 ” owner_lower=$“自己”$一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板”$老板 “owner_lower=$（老板”$一业一 “owner_lower=$（一主”$一业一 “owner_lower=$（一主”$老板 “owner_lower=$（老板”$老板 “owner_lower=$（老板”$一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（老板”$老板 “owner_lower=$（老板”$一人 “owner_lower=$（一人”$一人 “owner_lower=$（一人”$老板 “owner_lower=$（自板 ” owner_lower=$“一下”$一下 “owner_lower=$（一下”$一下 “owner_lower=$（一下”$一下 “owner_lower=$（一下”$一下 “owner_lower=$（一下”$一下 “owner_lower=$（一下”$一下 “owner_lower=$（一下”$一下 “owner_lower=$（一下”$一下 owner_lower=$一下$一下 owner_lower=$一下$四下 “owner_lower=$（四下”${{ github。存储库_所有者 }}" | tr '[:上:]' '[:上:]')" >> $GITHUB_输出
+ 回购 “repo_lower=$（echo”$ >> $GITHUB_回购 github。存储库 " | tr '[:上:]' '[:上:]')"" | tr '[:上:]' '[:上:]')"" | tr '[:上:]' '[:上:]')"" | tr '[:上:]' '[:上:]')"" | tr '[:上:]' '[:上:]')"{{ github。存储库 }}" | tr '[:上:]' '[:上:]')" >> $GITHUB_输出
 
-      - name: Log in to GitHub Container Registry
-        uses: docker/login-action@v4
-        with:
-          registry: ghcr.io
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+ 名GitHub GitHub 容哥哥哥GitHub GitHub 容哥哥哥名GitHub GitHub 容哥哥哥GitHub GitHub 容哥哥哥名GitHub GitHub 容哥哥哥GitHub GitHub 容哥哥哥名GitHub GitHub 容哥哥哥GitHub GitHub 容哥哥哥名GitHub GitHub 容哥哥哥GitHub GitHub 容哥哥哥     名GitHub GitHub 容哥哥哥GitHub GitHub 容哥哥哥名GitHub GitHub 容哥哥哥GitHub GitHub 容哥哥哥
+ 用途: 码头工人/login-action@v4
+ 与:
+ 注册表: ghcr。io
+ 用户名: ${{ github。演员 }}
+ 密码: $ 秘密。GITHUB_TOKEN { 秘密。GITHUB_TOKEN }}
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v4
+      - 名: Docker Buildx
+ 用途: 码头工人/setup-buildx-action@v4
 
-      - name: Build and push Docker image
-        uses: docker/build-push-action@v6
-        with:
-          context: .
-          push: true
-          tags: |
-            ghcr.io/${{ steps.vars.outputs.owner_lower }}/zzaixx:latest
-          labels: |
-            org.opencontainers.image.source=https://github.com/${{ steps.vars.outputs.repo_lower }}
-            org.opencontainers.image.description=http server
-            org.opencontainers.image.licenses=MIT
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+码头工人/setup-buildx-action@v4名:  用途码头码头 码头
+ 用途: 码码头工人/build-push-action@v6
+ 与:
+ 背景: .
+ 推: 真实的
+ 标签: |
+ ghcr。木中一/$ 标签/zzaixx:最中 标签/zzaixx:最新 步骤。瓦尔。输出。所有者_较低 }}/zzaixx:我新
+ 标签: |
+ 组织。开放容器。图像。来源=https://github。com/$ 缓存来自 缓存来自{{ 步骤。瓦尔。输出。repo_lower }}
+ 组织。开放容器。图像。引语=http 引语
+ 组织。开放容器。图像。许可证=麻省理工学院
+ 缓存来自: 石型=gha
+ 缓存到: 类型=gha,模式=max
